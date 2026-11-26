@@ -33,7 +33,9 @@ const ratingText = computed(() =>
       >
         No Poster
       </div>
-      <span class="show-card__rating">{{ ratingText }}</span>
+      <span class="show-card__rating">
+        {{ ratingText }}
+      </span>
     </div>
 
     <div class="show-card__body">
@@ -131,3 +133,4 @@ const ratingText = computed(() =>
     color: #cbd2e1;
   }
 }
+</style>
